@@ -1,0 +1,146 @@
+body {
+    font-family: 'Gill Sans';
+    animation: bgcolor infinite 20s;
+    
+ }
+ @keyframes bgcolor {
+   0% {
+      background:#e67e22 ;
+   }
+   20% {
+      background:#34495e ;
+   }
+   40% {
+      background:#e74c3c ;
+   }
+   60% {
+      background:#d35400 ;
+   }
+   80% {
+      background: #1abc9c;
+   }
+   100% {
+      background: #fab1a0;
+   }
+   120% {
+      background: #e84393;
+   }
+   
+ }
+ .result {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color:black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border:none;
+    padding:3rem;
+    text-shadow:1 ;
+    height: 13rem;
+    background-color : pink;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+   
+    overflow: hidden;
+   transition: 0.2s;
+   animation: newcolor infinite 10s;
+ }
+ @keyframes newcolor {
+   0% {
+      background: #e84393;
+   }
+   20% {
+      background:#fab1a0 ;
+   }
+   40% {
+      background: #1abc9c;
+   }
+   60% {
+      background:#7158e2 ;
+   }
+   80% {
+      background:  #e74c3c;
+   }
+   100% {
+      background:  #34495e;
+   }
+   120% {
+      background:#e67e22 ;
+   }
+   
+
+ }
+
+ .result:hover{
+
+   color:black;
+  background: #2196f3;
+  box-shadow: 0 0 10px #ff3838,0  0  40px  green,0  0  80px green;
+
+ }
+ 
+ button {
+   margin-top: 10px;
+    padding: 1rem;
+    margin: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-weight: bolder;
+
+ }
+ button:hover{
+   
+   color:black;
+   background: #2196f3;
+   box-shadow: 0 0 10px  #2196f3,0  0  40px  #2196f3,0  0  80px  #2196f3;
+  
+
+ }
+ button:active{
+   color: white;
+   font-weight: bolder;
+   background:red;
+   box-shadow: 0 0 10px red,0  0  40px red,0  0  80px red;
+ }
+ .container{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+ }
+ h1{
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-size: 4rem;
+   overflow: hidden;
+   transition: 0.2s;
+   color: black;
+ }
+ h1:hover{
+  color:whitesmoke;
+  background: #2196f3;
+  box-shadow: 0 0 10px  #2196f3,0  0  40px  #2196f3,0  0  80px  #2196f3;
+  border-radius: 2rem;
+
+ }
+ input{
+   font-size: 1rem;
+   font-weight: bold;
+   border-radius: 1.5rem;
+   padding :1rem;
+   overflow: hidden;
+   transition: 0.2s;
+   margin-right: 15px;
+
+ }
+ input:hover{
+    font-weight: bolder;
+   color:black;
+  background: #2196f3;
+  box-shadow: 0 0 10px  #2196f3,0  0  40px  #2196f3,0  0  80px  #2196f3;
+
+ }
+ 
